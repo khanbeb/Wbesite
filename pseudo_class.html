@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+
+
+
+.special-effect::after{
+	content: "bye" ;
+	
+}
+body{
+    counter-reset: section;
+}
+p::before {
+    counter-increment: section;
+    content: "Crush" ; counter(section) ":";
+}
+    </style>
+</head>
+<body>
+    <h1 class="special-effect"> Hello </h1>
+    <h1> Pseudo Class </h1>
+    <h2> Pseudo Class </h2>
+    <h3> Pseudo Class </h3>
+    <input class="email"  type="text">
+    <input class="passsword"  type="text">
+    <input class="btn" type="button" name="" value="Sign in">
+<ul>
+    <p>alia</p>
+    <p>sajal</p>
+    <p>munna</p>
+    <p>ratul</p>
+    <p>jannat</p>
+    <p>niloy</p>
+    <p>malia</p>
+</ul>
+
+  
+</body>
+</html>
